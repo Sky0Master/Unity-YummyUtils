@@ -2,8 +2,8 @@
 using System.Collections;
 using UnityEngine;
 
-namespace VinoUtility{
-public static class LerpUtility
+namespace Yummy{
+public static class LerpUtils
 {
     public static IEnumerator Lerp(float start, float end, float duration, Action<float> callback, Action onComplete = null)
     {
